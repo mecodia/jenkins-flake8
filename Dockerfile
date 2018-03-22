@@ -1,4 +1,5 @@
 FROM jenkins/jnlp-slave:alpine
+MAINTAINER mecodia GmbH
 
 USER root
 RUN apk update && apk add python3
