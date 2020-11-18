@@ -1,4 +1,4 @@
-FROM jenkins/jnlp-slave:alpine
+FROM jenkins/inbound-agent:alpine
 MAINTAINER mecodia GmbH
 
 USER root
