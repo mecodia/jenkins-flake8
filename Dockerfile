@@ -2,7 +2,7 @@ FROM jenkins/inbound-agent:alpine
 MAINTAINER mecodia GmbH
 
 USER root
-RUN apk update && apk add python3
+RUN apk update && apk add python3 py3-pip
 RUN pip3 install --no-cache-dir \
      flake8 \
      flake8-blind-except \
