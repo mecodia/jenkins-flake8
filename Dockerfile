@@ -1,5 +1,5 @@
-FROM jenkins/inbound-agent:alpine
-MAINTAINER mecodia GmbH
+FROM jenkins/inbound-agent:4.13.2-1-alpine-jdk11
+LABEL MAINTAINER mecodia GmbH
 
 USER root
 RUN apk update && apk add python3 py3-pip
