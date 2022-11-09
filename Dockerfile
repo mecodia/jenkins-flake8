@@ -1,4 +1,4 @@
-FROM jenkins/inbound-agent:4.13.2-1-alpine-jdk11
+FROM jenkins/inbound-agent:3071.v7e9b_0dc08466-1
 LABEL MAINTAINER mecodia GmbH
 
 USER root
